@@ -36,8 +36,13 @@
     .brand-name{
         font-size: 13px;
         margin-right:  auto !important;
-        max-width: 50% !important;
+        /* max-width: 50% !important; */
+        position: absolute;
+    left: 73px;
     }
     .nav-wrapper{
+    }
+    .navbar-light .navbar-toggler {
+        z-index: 999;
     }
 }
