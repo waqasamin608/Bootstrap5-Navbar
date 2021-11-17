@@ -15,7 +15,12 @@
     margin-right: auto !important;
 }
 .brand-name{
-    display: none;
+    position: absolute;
+    left: 110px;
+}
+.main-wrapper{
+    max-height: 100vh !important;
+    overflow-y: hidden;
 }
 @media(max-width:992px){
     .brand-name{
@@ -45,12 +50,11 @@
     display: none;
     top: -35px;
 }
-@media(max-width:550px){
+@media(max-width:650px){
     .brand-name{
         font-size: 13px;
-        margin-right:  auto !important;
-        position: absolute;
-    left: 73px;
+         left: 73px !important;
+         right:0 !important
     }
    
     .navbar-light .navbar-toggler {

@@ -12,54 +12,111 @@
 </head>
 
 <body>
-    <div class="navbar-section">
 
-        <nav class="navbar navbar-expand-lg navbar-light ">
-            <div class="container-fluid nav-wrapper">
-                <a class="navbar-brand" href="#">Navbar</a>
+    <div class="main-wrapper">
+        <div class="navbar-section">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <div class="container-fluid nav-wrapper">
+                    <a class="navbar-brand" href="#">Model</a>
+                    <div class="brand-name " id="brand-name">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Architecto, omnis?</div>
+                    <button class="navbar-toggler" onclick="collapse()" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav brand me-auto mb-2 mb-lg-0">
+                        </ul>
+                        <div class="d-flex navbar-nav menue-links-items">
+                            <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false"
+                                    data-bs-toggle="dropdown" id="lang" href="#">Lang</a>
+                                <div class="dropdown-menu"><a class="dropdown-item" id="en" href="#"
+                                        onclick="language(0)"
+                                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                        aria-expanded="false" aria-label="Toggle navigation" data-bs-toggle="collapse"
+                                        
+                                        >EN</a><a class="dropdown-item" id="fr" href="#"
+                                        onclick="language(1)"
+                                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                        aria-expanded="false" aria-label="Toggle navigation" data-bs-toggle="collapse"
+                                        >FR</a><a class="dropdown-item" id="pl" href="#"
+                                        onclick="language(2)"
+                                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                        aria-expanded="false" aria-label="Toggle navigation" data-bs-toggle="collapse"
+                                        >PL</a><a class="dropdown-item" id="es" href="#"
+                                        onclick="language(3)"
+                                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                        aria-expanded="false" aria-label="Toggle navigation" data-bs-toggle="collapse"
+                                        >ES</a><a class="dropdown-item" id="br" href="#"
+                                        onclick="language(4)"
+                                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                        aria-expanded="false" aria-label="Toggle navigation" data-bs-toggle="collapse"
+                                        >BR</a><a class="dropdown-item" id="ru" href="#"
+                                        onclick="language(5)"
+                                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                        aria-expanded="false" aria-label="Toggle navigation" data-bs-toggle="collapse"
+                                        >RU</a><a class="dropdown-item" id="de" href="#"
+                                        onclick="language(6)"
+                                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                        aria-expanded="false" aria-label="Toggle navigation" data-bs-toggle="collapse"
+                                        >DE</a></div>
+                            </li>
+                            <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false"
+                                    data-bs-toggle="dropdown" id="conf" href="#">Conf</a>
+                                     <div class="dropdown-menu"><a 
+                                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                        aria-expanded="false" aria-label="Toggle navigation" data-bs-toggle="collapse"
+                                        class="dropdown-item" href="#">#1</a>
+                                        <a class="dropdown-item" href="#"
+                                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                        aria-expanded="false" aria-label="Toggle navigation" data-bs-toggle="collapse"
+                                        >#2</a><a class="dropdown-item" href="#"
+                                        
+                                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                        aria-expanded="false" aria-label="Toggle navigation" data-bs-toggle="collapse"
+                                        >#3</a>
+                                    <div class="dropdown-divider"></div><a class="dropdown-item" href="#"
+                                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                    aria-expanded="false" aria-label="Toggle navigation" data-bs-toggle="collapse"
+                                    >#4</a>
+                                    <div class="dropdown-divider"></div><a class="dropdown-item" href="#"
+                                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                    aria-expanded="false" aria-label="Toggle navigation" data-bs-toggle="collapse"
+                                    >#5</a>
+                                </div>
+                            </li>
 
-                <div class="brand-name " id="brand-name">Brand Name Brand Name Brand Name....</div>
-                <button class="navbar-toggler" onclick="collapse()" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav brand me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Brand Name is my</a>
-                        </li>
-                    </ul>
-                    <div class="d-flex navbar-nav menue-links-items">
-                        <li class="nav-item">
-                            <a class="nav-link" data-bs-target="#navbarSupportedContent"
-                                aria-controls="navbarSupportedContent" aria-expanded="false"
-                                aria-label="Toggle navigation" data-bs-toggle="collapse" href="#">Link</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                    aria-expanded="false" aria-label="Toggle navigation" data-bs-toggle="collapse"><a
-                                        class="dropdown-item" href="#">Action</a></li>
-                                <li data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                    aria-expanded="false" aria-label="Toggle navigation" data-bs-toggle="collapse"><a
-                                        class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                    aria-expanded="false" aria-label="Toggle navigation" data-bs-toggle="collapse"><a
-                                        class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-
+                        </div>
                     </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
+        </div>
+        <p>lorem text</p>
+        <p>lorem text</p>
+        <p>lorem text</p>
+        <p>lorem text</p>
+        <p>lorem text</p>
+        <p>lorem text</p>
+        <p>lorem text</p>
+        <p>lorem text</p>
+        <p>lorem text</p>
+        <p>lorem text</p>
+        <p>lorem text</p>
+        <p>lorem text</p>
+        <p>lorem text</p>
+        <p>lorem text</p>
+        <p>lorem text</p>
+        <p>lorem text</p>
+        <p>lorem text</p>
+        <p>lorem text</p>
+        <p>lorem text</p>
+        <p>lorem text</p>
+        <p>lorem text</p>
+        <p>lorem text</p>
+        <p>lorem text</p>
+        <p>lorem text</p>
+        <p>lorem text</p>
     </div>
 
 
